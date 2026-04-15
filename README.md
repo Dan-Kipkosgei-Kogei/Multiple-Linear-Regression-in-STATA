@@ -58,3 +58,4 @@ Figure 1 shows a clear positive relationship between study hours and performance
 **Figure 2:** Previous and current performance 
 
 From the figure 2, it is evident that performance was higher in the previous examinations compared to the current performance.
+#### Performance by Extra curricular participation
