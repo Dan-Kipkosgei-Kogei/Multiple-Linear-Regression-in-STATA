@@ -94,7 +94,7 @@ regress performance hours previous sleep papers curricular
 
 The regression results show that all explanatory variables;hours of study, previous performance, sleep, number of papers revised, and curricular participation have a statistically significant effect on current academic performance (p < 0.001 for all variables). Study hours have a strong positive effect, where a one unit increase in hours is associated with an increase of about 2.85 points in performance, holding other factors constant. Previous performance is also highly influential, with a coefficient of 1.02, indicating strong persistence in academic achievement over time. Sleep and papers revised both have positive and significant effects, suggesting that better rest and more revision contribute to improved outcomes, although their effects are relatively smaller compared to hours and previous performance. Curricular participation also has a positive impact, increasing performance by about 0.61 points on average. The constant term is negative, but it mainly serves as a baseline and has limited practical interpretation in this context. Overall, the model suggests that both academic effort and prior ability are key determinants of student performance.
 ##  Testing for Model Assumptions
-##### 1. Normality Of Residuals
+##### 1. Error Terms should be Normally Distributed
 ```stata
 predict resid, residuals
 histogram resid, normal
@@ -105,10 +105,12 @@ histogram resid, normal
 
 The histogram of residuals in Figure 6 suggests that the errors from the regression model are approximately normally distributed, as the shape closely follows a bell curve and is centered around zero. This indicates that the normality assumption of the classical linear regression model is reasonably satisfied. Since the residuals are fairly symmetric with no strong skewness or extreme deviations, it implies that the estimated coefficients and associated statistical tests such as t-tests and F-tests are likely reliable.
 
-##### 2. Constant Variance of residuals
+##### 2. Variance of the Error terms should be Constant(Homoskedasticity)
 ```stata
 rvfplot, yline(0)
 ```
 <img src="constant variance.png" width="600"/>
 
 **Figure 7:** Constant Variance
+
+From Figure 7, the residuals appear to be randomly and evenly scattered around zero across all levels of the fitted values. There is no visible pattern such as a funnel shape, curvature, or systematic increase or decrease in the spread of the residuals as the fitted values change. This relatively uniform dispersion suggests that the variance of the error terms remains constant across observations. Therefore, the assumption of homoskedasticity (constant variance) is likely satisfied in this model.
