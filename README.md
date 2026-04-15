@@ -20,3 +20,22 @@ where:
 - $\sum$: A greek symbol that means sum
 - $y_i$: The actual response value for the ith observation
 - $\hat{y}_i$: The predicted response value based on the multiple linear regression model
+
+The method used to find these coefficient estimates relies on matrix algebra.
+
+## Application Of MLR in Modeling Student Academic Performance in R
+
+This work utilized the secondary data from Kaggle with a sample size of n=10,000. 
+
+The response variable was;
+- Performance Index
+  
+The Predictor variables were;
+- Hours Studied
+- Previous Scores
+- Extracurricular Activities
+- Sleep Hours
+- Sample Question Papers Practiced
+
+
+  
