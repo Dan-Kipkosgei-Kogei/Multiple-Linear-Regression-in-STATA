@@ -79,4 +79,8 @@ From Figure 4, it is evident that sleeping hours have little to no observable im
 From Figure 5, it can be seen that the number of past papers reviewed has some influence on students’ academic performance. The distribution of performance varies slightly across different levels of revision, suggesting a modest relationship. In particular, there is a slight indication that students who revise more past papers tend to achieve higher scores.
 
 ## Test for Multicollinearity
-Multicollinearity occurs when two or more independent variables in a regression model are highly correlated with each other. This makes it difficult to isolate the individual effect of each variable on the dependent variable. It is important because it can lead to unstable and unreliable coefficient estimates. As a result, statistical inferences such as significance tests may become misleading.
+Multicollinearity occurs when two or more independent variables in a regression model are highly correlated with each other. This makes it difficult to isolate the individual effect of each variable on the dependent variable. It is important because it can lead to unstable and unreliable coefficient estimates. As a result, statistical inferences such as significance tests may become misleading. It is normally tested using Variance Inflation Factor(VIF) where a vif greater than 5 indicates severe multicollinearity
+
+<img src="vif.png" width="600"/>
+
+Since all the VIF values are below 5, there is no strong evidence of serious multicollinearity among the predictor variables.
