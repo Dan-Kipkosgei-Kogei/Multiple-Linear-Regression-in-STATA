@@ -28,14 +28,14 @@ The method used to find these coefficient estimates relies on matrix algebra.
 This work utilized the secondary data from Kaggle with a sample size of n=10,000. 
 
 The response variable was;
-- Performance Index
+- Performance Index.
   
 The Predictor variables were;
-- Hours Studied
-- Previous Scores
-- Extracurricular Activities
-- Sleep Hours
-- Sample Question Papers Practiced
+- Hours Studied (the number of hours the students takes in studying)
+- Previous Scores (Previous performance of the students)
+- Extracurricular Activities (If the student is participating in extra curicullar activities)
+- Sleep Hours (number of hours student takes in sleeping)
+- Sample Question Papers Practiced (number of question papers revised by the student)
 
 
   
