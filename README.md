@@ -38,7 +38,7 @@ The Predictor variables were;
 - Sample Question Papers Practiced (number of question papers revised by the student)
 
 # Examining the Data
-### Summary
-![Regression Graph](images/summaryMLR1.png)
+
+![Regression Graph](images/summaryMLR1.PNG)
 
   
