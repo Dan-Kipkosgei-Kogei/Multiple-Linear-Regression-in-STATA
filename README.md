@@ -85,6 +85,8 @@ Multicollinearity occurs when two or more independent variables in a regression 
 
 Since all the VIF values are below 5, there is no strong evidence of serious multicollinearity among the predictor variables.
 ## Fitting MLR Model in STATA
-
+#### STATA Code
 ```stata
 regress performance hours previous sleep papers curricular
+```
+<img src="mlroutput.PNG" width="600"/>
