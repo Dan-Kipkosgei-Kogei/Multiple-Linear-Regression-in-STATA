@@ -59,3 +59,8 @@ Figure 1 shows a clear positive relationship between study hours and performance
 
 From the figure 2, it is evident that performance was higher in the previous examinations compared to the current performance.
 #### Performance by Extra curricular participation
+<img src="extracurricular.png" width="600"/>
+
+**Figure 3:** Performance by Curricular participation
+
+From Figure 3, it can be observed that the average performance of students who participate in extracurricular activities is almost the same as that of those who do not.
