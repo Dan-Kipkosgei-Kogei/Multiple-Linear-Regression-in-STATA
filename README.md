@@ -39,6 +39,6 @@ The Predictor variables were;
 
 # Examining the Data
 
-![Regression Graph](images/summaryMLR1.PNG)
+<img src="summaryMLR1.PNG" width="600"/>
 
   
