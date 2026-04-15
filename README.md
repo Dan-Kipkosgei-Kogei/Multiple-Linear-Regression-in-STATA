@@ -104,3 +104,11 @@ histogram resid, normal
 **Figure 6:** Normality of residuals
 
 The histogram of residuals in Figure 6 suggests that the errors from the regression model are approximately normally distributed, as the shape closely follows a bell curve and is centered around zero. This indicates that the normality assumption of the classical linear regression model is reasonably satisfied. Since the residuals are fairly symmetric with no strong skewness or extreme deviations, it implies that the estimated coefficients and associated statistical tests such as t-tests and F-tests are likely reliable.
+
+##### 2. Constant Variance of residuals
+```stata
+rvfplot, yline(0)
+```
+<img src="constant variance.gph" width="600"/>
+
+**Figure 7:** Constant Variance
