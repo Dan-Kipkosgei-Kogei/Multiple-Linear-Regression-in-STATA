@@ -11,11 +11,11 @@ where:
 - $X_j$: The $j^{th}$ predictor variable
 - $\beta_j$: The average effect on Y of a one unit increase in $X_j$, holding all other predictors fixed
 - $\epsilon$: The error term
-- 
+
 The values for $\beta_0, \beta_1, \beta_2, \ldots, \beta_p$ are chosen using the least squares method, which minimizes the sum of squared residuals (RSS):
-\[
+$
 RSS = \sum_{i=1}^{n} (y_i - \hat{y}_i)^2
-\]
+$
 where:
 Σ: A greek symbol that means sum
 yi: The actual response value for the ith observation
