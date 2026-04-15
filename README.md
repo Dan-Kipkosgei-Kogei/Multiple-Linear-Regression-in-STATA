@@ -1,4 +1,5 @@
 # Multiple Linear Regression in STATA
+## By Dan Kipkosgei Kogei, MSc.
 Multiple linear regression is a method you can use to understand the relationship between several explanatory variables and a response variable.
 
 If we have p predictor variables, then a multiple linear regression model takes the form:
