@@ -64,3 +64,9 @@ From the figure 2, it is evident that performance was higher in the previous exa
 **Figure 3:** Performance by Curricular participation
 
 From Figure 3, it can be observed that the average performance of students who participate in extracurricular activities is almost the same as that of those who do not.
+#### Perfornce by Sleep Hours
+<img src="sleep.png" width="600"/>
+
+**Figure 4:** Performance by sleep hours
+
+From Figure 4, it is evident that sleeping hours have little to no observable impact on students’ academic performance. The distribution of performance appears similar across different levels of sleep duration, with no clear upward or downward trend. This suggests that variations in sleep hours do not significantly influence academic outcomes in this dataset.
