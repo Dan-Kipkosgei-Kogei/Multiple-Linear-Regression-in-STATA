@@ -85,7 +85,7 @@ Multicollinearity occurs when two or more independent variables in a regression 
 
 Since all the VIF values are below 5, there is no strong evidence of serious multicollinearity among the predictor variables.
 ## Fitting MLR Model in STATA
-#### STATA Code
+###### STATA Code
 ```stata
 use Student_Performance.dta, clear
 regress performance hours previous sleep papers curricular
@@ -93,3 +93,10 @@ regress performance hours previous sleep papers curricular
 <img src="mlroutput.PNG" width="600"/>
 
 The regression results show that all explanatory variables;hours of study, previous performance, sleep, number of papers revised, and curricular participation have a statistically significant effect on current academic performance (p < 0.001 for all variables). Study hours have a strong positive effect, where a one unit increase in hours is associated with an increase of about 2.85 points in performance, holding other factors constant. Previous performance is also highly influential, with a coefficient of 1.02, indicating strong persistence in academic achievement over time. Sleep and papers revised both have positive and significant effects, suggesting that better rest and more revision contribute to improved outcomes, although their effects are relatively smaller compared to hours and previous performance. Curricular participation also has a positive impact, increasing performance by about 0.61 points on average. The constant term is negative, but it mainly serves as a baseline and has limited practical interpretation in this context. Overall, the model suggests that both academic effort and prior ability are key determinants of student performance.
+##  Testing for Model Assumptions
+##### 1. Normality Of Residuals
+```stata
+predict resid, residuals
+histogram resid, normal
+```
+
