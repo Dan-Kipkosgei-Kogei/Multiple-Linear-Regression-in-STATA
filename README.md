@@ -23,7 +23,7 @@ where:
 
 The method used to find these coefficient estimates relies on matrix algebra.
 
-## Application Of MLR in Modeling Student Academic Performance in R
+## Application Of MLR in Modeling Student Academic Performance in STATA
 
 This work utilized the secondary data from Kaggle with a sample size of n=10,000. 
 
