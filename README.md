@@ -54,6 +54,7 @@ Figure 1 shows a clear positive relationship between study hours and performance
 #### Current Performance Verses Previous Performance
 
 <img src="currentandpreviousmarks.png" width="600"/>
-Figure 2: Previous and current performance 
+
+**Figure 2:** Previous and current performance 
 
 From the figure 2, it is evident that performance was higher in the previous examinations compared to the current performance.
