@@ -1,17 +1,14 @@
-# Multiple-Linear-Regression-in-STATA
-
-     Source |       SS           df       MS      Number of obs   =        74
--------------+----------------------------------   F(3, 70)        =     12.98
-       Model |   226957412         3  75652470.6   Prob > F        =    0.0000
-    Residual |   408107984        70  5830114.06   R-squared       =    0.3574
--------------+----------------------------------   Adj R-squared   =    0.3298
-       Total |   635065396        73  8699525.97   Root MSE        =    2414.6
-
-------------------------------------------------------------------------------
-       price |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval]
--------------+----------------------------------------------------------------
-         mpg |  -86.78928   83.94335    -1.03   0.305     -254.209    80.63046
-      weight |   4.364798   1.167455     3.74   0.000     2.036383    6.693213
-      length |  -104.8682   39.72154    -2.64   0.010    -184.0903   -25.64607
-       _cons |   14542.43   5890.632     2.47   0.016      2793.94    26290.93
-------------------------------------------------------------------------------
+# Multiple Linear Regression in STATA
+Multiple linear regression is a method you can use to understand the relationship between several explanatory variables and a response variable. If we have p predictor variables, then a multiple linear regression model takes the form:
+Y = β0 + β1X1 + β2X2 + … + βpXp + ε
+where:
+Y: The response variable
+Xj: The jth predictor variable
+βj: The average effect on Y of a one unit increase in Xj, holding all other predictors fixed
+ε: The error term
+The values for β0, β1, B2, … , βp are chosen using the least square method, which minimizes the sum of squared residuals (RSS):
+RSS = Σ(yi – ŷi)2
+where:
+Σ: A greek symbol that means sum
+yi: The actual response value for the ith observation
+ŷi: The predicted response value based on the multiple linear regression model
