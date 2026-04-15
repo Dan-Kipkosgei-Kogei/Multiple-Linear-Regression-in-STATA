@@ -99,4 +99,6 @@ The regression results show that all explanatory variables;hours of study, previ
 predict resid, residuals
 histogram resid, normal
 ```
-<img src="normality of residuals.PNG" width="600"/>
+<img src="normality of residuals.png" width="600"/>
+
+**Figure 6:** Normality of residuals
