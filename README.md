@@ -47,7 +47,8 @@ The dataset contains 10,000 observations for most variables, showing a large and
 #### Performance Verses Hours Studied
 
 <img src="hours1.png" width="600"/>
-Figure 1: Scatter plot for hours vs performance
+
+**Figure 1:** Scatter plot for hours vs performance
 
 Figure 1 shows a clear positive relationship between study hours and performance, indicating that students who spend more time studying tend to achieve higher scores.
 #### Current Performance Verses Previous Performance
