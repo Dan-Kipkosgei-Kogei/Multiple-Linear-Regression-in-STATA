@@ -37,5 +37,9 @@ The Predictor variables were;
 - Sleep Hours (number of hours student takes in sleeping)
 - Sample Question Papers Practiced (number of question papers revised by the student)
 
+## Examining the Data
+## Regression Output
+
+![Regression Graph](images/summaryMLR1.png)
 
   
